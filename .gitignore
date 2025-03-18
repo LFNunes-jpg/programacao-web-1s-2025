@@ -93,8 +93,7 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
+# Comment in the public line if your project uses Gatsby and not Next.js
 # public
 
 # vuepress build output
@@ -103,6 +102,12 @@ dist
 # vuepress v2.x temp and cache directory
 .temp
 .cache
+
+# Vitepress build output
+**/.vitepress/dist
+
+# Vitepress cache directory
+**/.vitepress/cache
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -122,7 +127,7 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# yarn v2
+# Yarn v2
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
